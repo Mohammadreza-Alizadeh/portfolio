@@ -6,7 +6,7 @@ export default function TitleBar() {
         <div className="dot dot-y"></div>
         <div className="dot dot-g"></div>
       </div>
-      <div className="title-text">sairam@portfolio: ~</div>
+      <div className="title-text">mohammadreza@portfolio: ~</div>
     </div>
   );
 }

@@ -1,16 +1,22 @@
-const projects = [
+const achievements = [
   {
     num: '01',
-    title: 'AWS Cloud Infrastructure with CI/CD Pipeline',
-    link: 'https://github.com/itsairamkumar',
-    desc: '3-tier AWS (EC2, RDS, ALB, Auto Scaling) provisioned with Terraform; CI/CD via Jenkins, Docker, and ECR.',
-    tags: ['AWS', 'Terraform', 'Jenkins', 'Docker', 'ECR', 'CI/CD'],
+    title: 'DevOps Finalist - Tech Olympics 2026',
+    link: 'https://olympics.tech/en',
+    desc: 'Selected as a finalist in the DevOps category for the 2026 Tech Olympics.',
+    tags: ['DevOps', 'Competition', 'Finalist'],
   },
   {
     num: '02',
-    title: 'Evaluation Platform',
-    desc: '.NET and SQL Server platform for university exams — monitoring, HA/DR, backups, and tuning under peak load.',
-    tags: ['SQL Server', 'IIS', 'HA/DR', 'Query Tuning', 'ASP.NET'],
+    title: 'Technical Lead - CodeStorm Competition',
+    desc: 'Served as the technical lead for the first CodeStorm student programming competition, organized in collaboration with national universities and Part Software.',
+    tags: ['Leadership', 'Event Management', 'Problem Solving'],
+  },
+  {
+    num: '03',
+    title: 'Volunteer - Mashhad LUG',
+    desc: 'Collaborating voluntarily with the Mashhad Linux Users Group (LUG) to support and educate Linux users, especially beginners.',
+    tags: ['Linux', 'Community', 'Volunteering'],
   },
 ];
 
@@ -18,29 +24,29 @@ export default function ProjectsSection() {
   return (
     <div className="section active" id="projects" role="tabpanel">
       <div className="prompt">
-        <span className="prompt-user">sairam</span>
+        <span className="prompt-user">mohammadreza</span>
         <span className="prompt-at">@</span>
         <span className="prompt-host">portfolio</span>
         <span className="prompt-sep">:</span>
-        <span className="prompt-path">~/projects</span>
+        <span className="prompt-path">~/achievements</span>
         <span className="prompt-dollar">$</span>
-        <span className="prompt-cmd">git log --oneline --all</span>
+        <span className="prompt-cmd">cat achievements.log</span>
       </div>
 
-      {projects.map((project) => (
-        <div className="project-item" key={project.num}>
+      {achievements.map((item) => (
+        <div className="project-item" key={item.num}>
           <div className="project-item__head">
-            <span className="project-item__num">{project.num}</span>
-            <span className="project-item__title">{project.title}</span>
-            {project.link && (
-              <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-item__link">
-                github ↗
+            <span className="project-item__num">{item.num}</span>
+            <span className="project-item__title">{item.title}</span>
+            {item.link && (
+              <a href={item.link} target="_blank" rel="noopener noreferrer" className="project-item__link">
+                link ↗
               </a>
             )}
           </div>
-          <p className="project-item__desc">{project.desc}</p>
+          <p className="project-item__desc">{item.desc}</p>
           <div className="project-item__tags">
-            {project.tags.map((tag) => (
+            {item.tags.map((tag) => (
               <span className="stag" key={tag}>{tag}</span>
             ))}
           </div>

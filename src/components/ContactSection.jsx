@@ -2,7 +2,7 @@ export default function ContactSection() {
   return (
     <div className="section active" id="contact" role="tabpanel">
       <div className="prompt">
-        <span className="prompt-user">sairam</span>
+        <span className="prompt-user">mohammadreza</span>
         <span className="prompt-at">@</span>
         <span className="prompt-host">portfolio</span>
         <span className="prompt-sep">:</span>
@@ -22,35 +22,35 @@ export default function ContactSection() {
           </div>
           <h2 className="contact-hero__title">Let's build something reliable.</h2>
           <p className="contact-hero__sub">
-            Open to DevOps, cloud, and infrastructure roles — full-time or freelance.
+            Open to DevOps, Cloud, and Python development roles — freelance.
           </p>
           <div className="actions card-actions">
-            <a href="mailto:itsairamkumar@gmail.com" className="cmd-btn cmd-btn-primary">
+            <a href="mailto:alizadehmohamadreza61@gmail.com" className="cmd-btn cmd-btn-primary">
               ✉ Email me
             </a>
           </div>
         </div>
 
         <div className="contact-grid">
-          <a href="mailto:itsairamkumar@gmail.com" className="contact-tile">
+          <a href="mailto:alizadehmohamadreza61@gmail.com" className="contact-tile">
             <span className="contact-tile__icon">@</span>
             <span className="contact-tile__label">email</span>
-            <span className="contact-tile__value">itsairamkumar@gmail.com</span>
+            <span className="contact-tile__value">alizadehmohamadreza61@gmail.com</span>
           </a>
-          <a href="https://www.linkedin.com/in/isairamkumar" target="_blank" rel="noopener noreferrer" className="contact-tile">
+          <a href="https://www.linkedin.com/in/mohammadreza-alizadeh-89997331a" target="_blank" rel="noopener noreferrer" className="contact-tile">
             <span className="contact-tile__icon">in</span>
             <span className="contact-tile__label">linkedin</span>
-            <span className="contact-tile__value">/in/isairamkumar</span>
+            <span className="contact-tile__value">/in/mohammadreza-alizadeh</span>
           </a>
-          <a href="https://github.com/itsairamkumar" target="_blank" rel="noopener noreferrer" className="contact-tile">
+          <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer" className="contact-tile">
             <span className="contact-tile__icon">{'{ }'}</span>
             <span className="contact-tile__label">github</span>
-            <span className="contact-tile__value">itsairamkumar</span>
+            <span className="contact-tile__value">your-username (Update me)</span>
           </a>
           <div className="contact-tile contact-tile--static">
             <span className="contact-tile__icon">📍</span>
             <span className="contact-tile__label">location</span>
-            <span className="contact-tile__value">Bhubaneswar, India</span>
+            <span className="contact-tile__value">Mashhad, Iran</span>
           </div>
         </div>
       </div>

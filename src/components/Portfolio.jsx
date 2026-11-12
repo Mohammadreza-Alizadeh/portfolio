@@ -13,7 +13,7 @@ const sections = [
   { id: 'home', label: '~/home' },
   { id: 'experience', label: '~/experience' },
   { id: 'skills', label: '~/skills' },
-  { id: 'projects', label: '~/projects' },
+  { id: 'projects', label: '~/achevements' },
   { id: 'academic', label: '~/academic' },
   { id: 'contact', label: '~/contact' },
 ];
@@ -46,8 +46,8 @@ export default function Portfolio() {
           {renderSection()}
         </main>
         <div className="statusbar">
-          <span>sairam@portfolio</span>
-          <span>AWS · Terraform · Docker · Kubernetes · Jenkins</span>
+          <span>alizadehmohamadreza641@gmail.com</span>
+          <span>Docker · CI/CD · Ansible · Linux . Python</span>
         </div>
       </div>
     </div>

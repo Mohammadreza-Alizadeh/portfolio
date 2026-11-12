@@ -2,7 +2,7 @@ export default function ExperienceSection() {
   return (
     <div className="section active" id="experience" role="tabpanel">
       <div className="prompt">
-        <span className="prompt-user">sairam</span>
+        <span className="prompt-user">mohammadreza</span>
         <span className="prompt-at">@</span>
         <span className="prompt-host">portfolio</span>
         <span className="prompt-sep">:</span>
@@ -13,19 +13,13 @@ export default function ExperienceSection() {
 
       <div className="exp-block">
         <div className="exp-title-line">
-          <span className="exp-role">AWS Cloud &amp; DevOps Engineer | SQL Server DBA</span>
-          <span className="exp-period">Jan 2024 – Present</span>
+          <span className="exp-role">DevOps / Python Developer</span>
+          <span className="exp-period">Present</span>
         </div>
-        <div className="exp-company">Eduquity Career Technologies Pvt. Ltd. · Bhubaneswar, Odisha</div>
+        <div className="exp-company">NewHorizon . Mashhad, Iran</div>
         <ul className="exp-points">
-          <li>Architected and deployed scalable multi-tier AWS environments using EC2, ALB, Auto Scaling, VPCs with IAM policies and CloudWatch monitoring</li>
-          <li>Automated infrastructure provisioning using Terraform, reducing manual deployment effort and improving consistency</li>
-          <li>Designed and maintained CI/CD pipelines using Jenkins, GitHub Actions, and Git for reliable releases</li>
-          <li>Containerized applications with Docker and deployed on AWS ECS/EKS, improving scalability and portability</li>
-          <li>Led on-premises SQL Server migrations to AWS with near-zero downtime and zero data loss</li>
-          <li>Administered SQL Server 2016/2019 databases supporting 6,000+ users across production environments</li>
-          <li>Implemented Always On Availability Groups, Database Mirroring, and Log Shipping for disaster recovery</li>
-          <li>Optimized SQL Server performance through indexing, execution plan analysis, and proactive monitoring</li>
+          <li>Developing and maintaining scalable infrastructure and automation scripts.</li>
+          <li>Working on CI/CD pipelines and integrating Python-based tooling for operations.</li>
         </ul>
       </div>
 
@@ -33,19 +27,33 @@ export default function ExperienceSection() {
 
       <div className="exp-block">
         <div className="exp-title-line">
-          <span className="exp-role">Sr. Executive – IT Infrastructure &amp; Operations</span>
-          <span className="exp-period">Dec 2015 – Present</span>
+          <span className="exp-role">DevOps Engineer</span>
+          <span className="exp-period">2+ Years</span>
         </div>
-        <div className="exp-company">Eduquity Career Technologies Pvt. Ltd. · Bhubaneswar, Odisha</div>
+        <div className="exp-company">Part Software Group · Mashhad, Iran</div>
         <ul className="exp-points">
-          <li>Managed end-to-end IT infrastructure for 7,000+ users across multiple locations, improving system reliability by 35%</li>
-          <li>Supervised cross-functional team of 15 outsourced engineers and 4 junior associates, streamlining workflow and service delivery</li>
-          <li>Deployed and configured physical and virtual servers, enhancing infrastructure scalability and availability</li>
-          <li>Designed and maintained VMware-based virtualization infrastructure with optimized resource allocation</li>
-          <li>Configured routing, switching, VPN, and SonicWall Firewall policies for 1,000+ devices</li>
-          <li>Managed hybrid on-premise and AWS cloud environments for extended infrastructure scalability</li>
-          <li>Developed SOPs and delivered technical training to 40+ staff members, improving onboarding efficiency by 30%</li>
-          <li>Coordinated with clients and internal stakeholders to capture requirements and align delivery expectations</li>
+          <li>Maintained and monitored infrastructure for banking services and high-traffic systems in a Linux environment.</li>
+          <li>Managed infrastructure including over 150 virtual machines and production services.</li>
+          <li>Developed Python tools and scripts to automate operational processes and reduce repetitive tasks.</li>
+          <li>Participated in deploying and managing services with Docker, PM2, and Linux.</li>
+          <li>Collaborated in CI/CD processes to improve deployment and maintenance.</li>
+          <li>Troubleshot production issues using logs, monitoring, and system performance analysis.</li>
+          <li>Worked in Agile teams, collaborating continuously with development teams to resolve operational issues.</li>
+        </ul>
+      </div>
+
+      <hr className="divider" />
+
+      <div className="exp-block">
+        <div className="exp-title-line">
+          <span className="exp-role">Programming Instructor</span>
+          <span className="exp-period">Present</span>
+        </div>
+        <div className="exp-company">Radman Technical and Vocational Institute · Mashhad, Iran</div>
+        <ul className="exp-points">
+          <li>Teaching programming fundamentals and Python to students.</li>
+          <li>Designing practical exercises and projects to strengthen problem-solving and algorithmic thinking skills.</li>
+          <li>Simplifying technical concepts for individuals without a programming background.</li>
         </ul>
       </div>
 
