@@ -1,7 +1,7 @@
 {
-  "name": "alizade-portfolio",
-  "private": true,
-  "version": "0.0.0",
+  "name": "Alizadeh Portfolio",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
   "homepage": "https://mohammadreza-alizadeh.github.io",
   "scripts": {
