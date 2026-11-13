@@ -42,10 +42,10 @@ export default function ContactSection() {
             <span className="contact-tile__label">linkedin</span>
             <span className="contact-tile__value">/in/mohammadreza-alizadeh</span>
           </a>
-          <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer" className="contact-tile">
+          <a href="https://github.com/mohammadreza-alizadeh" target="_blank" rel="noopener noreferrer" className="contact-tile">
             <span className="contact-tile__icon">{'{ }'}</span>
             <span className="contact-tile__label">github</span>
-            <span className="contact-tile__value">your-username (Update me)</span>
+            <span className="contact-tile__value">Mohammadreza-Alizadeh</span>
           </a>
           <div className="contact-tile contact-tile--static">
             <span className="contact-tile__icon">📍</span>

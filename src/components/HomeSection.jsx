@@ -1,3 +1,5 @@
+import resumePdf from '../assets/Mohammadreza-Alizadeh.pdf';
+
 export default function HomeSection() {
   return (
     <div className="section active" id="home" role="tabpanel">
@@ -13,13 +15,13 @@ export default function HomeSection() {
             </h1>
             <p className="role-line">DevOps Engineer · Python Developer</p>
             <p className="bio">
-              DevOps Engineer and Linux Administrator with ~2 years of experience in maintaining and automating Linux infrastructures. Passionate about building reliable systems, automation, and learning Kubernetes and IaC.
+              DevOps Engineer and Linux Administrator with ~3 years of experience in maintaining and automating Linux infrastructures. Passionate about building reliable systems, automation, and learning Kubernetes and IaC.
             </p>
             <p className="home-location">
               Mashhad, Iran · NewHorizon
             </p>
             <div className="actions home-actions">
-              <a href="/mohammadreza_alizadeh_cv.pdf" download className="cmd-btn cmd-btn-primary">↓ CV</a>
+              <a href={resumePdf} download className="cmd-btn cmd-btn-primary">↓ CV</a>
               <a href="mailto:alizadehmohamadreza61@gmail.com" className="cmd-btn cmd-btn-secondary">✉ Email</a>
               <a href="https://www.linkedin.com/in/mohammadreza-alizadeh-89997331a" target="_blank" rel="noopener noreferrer" className="cmd-btn cmd-btn-secondary">⇗ LinkedIn</a>
               <a href="https://t.me/alizadehastam" target="_blank" rel="noopener noreferrer" className="cmd-btn cmd-btn-secondary">☺︎ Telegram</a>
@@ -31,7 +33,7 @@ export default function HomeSection() {
           <div className="card home-metrics">
             <p className="home-card-label">Impact</p>
             <ul className="home-metrics__list">
-              <li><strong>2+</strong><span>years DevOps</span></li>
+              <li><strong>3+</strong><span>years DevOps</span></li>
               <li><strong>150+</strong><span>VMs managed</span></li>
               <li><strong>6+</strong><span>certifications</span></li>
               <li><strong>1x</strong><span>Tech Olympics Finalist</span></li>
